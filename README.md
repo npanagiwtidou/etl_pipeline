@@ -12,7 +12,7 @@ removing duplicated values, changing datatype and merging datatables.
 ### Requirements
 The minimum requirements:
 
-Docker for Mac: Docker >= 20.10.2
-Docker for Windows:
-Installation: Docker
-Manual installation steps for older WSL version: Docker WSL 2
+* Docker for Mac: [Docker >= 20.10.2](https://docs.docker.com/desktop/install/mac-install/)
+* Docker for Windows:
+  - Installation: [Docker](https://docs.docker.com/desktop/install/windows-install/)
+  - Manual installation steps for older WSL version: [Docker WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)

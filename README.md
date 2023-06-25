@@ -5,7 +5,8 @@ transforming and loading data during the WAIA bootcamp.
 
 Particularly, the data were extracted from 
 Redshift warehouse, transformed and loaded to S3 bucket.
-The transforming task includes finding and dealing with missing and incorrect values, 
-removing duplicated values and merging datatables.
+The transforming task includes finding and dealing with missing and 
+incorrect values, 
+removing duplicated values, changing datatype and merging datatables.
 
 

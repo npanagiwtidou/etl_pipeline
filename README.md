@@ -9,4 +9,10 @@ The transforming task includes finding and dealing with missing and
 incorrect values, 
 removing duplicated values, changing datatype and merging datatables.
 
+### Requirements
+The minimum requirements:
 
+Docker for Mac: Docker >= 20.10.2
+Docker for Windows:
+Installation: Docker
+Manual installation steps for older WSL version: Docker WSL 2

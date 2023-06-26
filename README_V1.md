@@ -9,16 +9,21 @@ The transforming task includes finding and handling missing and
 incorrect values,
 removing duplicated values, changing datatype and merging datatables.
 
-### Requirements
-* The minimum requirements:
+### Requirements (using python)
+* The minimum requirements using python:
   **Python 3+**
 
 ### Instructions on how to execute the code
 1. Make sure you are executing the code from the etl_pipeline folder.
+2. Open the requirements.txt and add "dotenv" library. Totally, 4 libraries should be included in the requirements.txt
+   - psycopg2-binary
+   - pandas
+   - boto3
+   - dotenv
 
-2. Install all the libraries you will need to execute main.py.
+3.Install all the libraries you will need to execute main.py.
    **- pip3 install -r requirements.txt**
-3. Copy the .env.example file to .env and fill out the environment vars.
+4.Copy the .env.example file to .env and fill out the environment vars.
 
-4. Run the main.py script.
+5.Run the main.py script.
    **- python3 main.py**

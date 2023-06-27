@@ -4,7 +4,6 @@ FROM python:3.8-buster
 #Creating the working directory in Docker
 WORKDIR /app
 
-
 # Copy all the source code into our directory to the Docker image
 COPY . /app
 

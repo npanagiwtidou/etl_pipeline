@@ -28,6 +28,7 @@ removing duplicated values, changing datatype and merging datatables.
 5. In the "main.py" remove the comments in the following lines:
    
    #from dotenv import load_dotenv
+
    #load_dotenv()
 6. Run the main.py script.
 

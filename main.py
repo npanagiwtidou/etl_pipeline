@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
-#from dotenv import load_dotenv
-#load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
 from src.transform import identify_remove_duplicates
 from src.load_data_s3 import df_to_s3

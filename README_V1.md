@@ -21,9 +21,14 @@ removing duplicated values, changing datatype and merging datatables.
    - boto3
    - dotenv
 
-3.Install all the libraries you will need to execute main.py.
+3. Install all the libraries you will need to execute main.py.
+   
    **- pip3 install -r requirements.txt**
-4.Copy the .env.example file to .env and fill out the environment vars.
+4. Copy the .env.example file to .env and fill out the environment vars.
+5. In the "main.py" put in comment
+   
+   #from doenv import load_dotenv
+   #load_dotenv()
+6. Run the main.py script.
 
-5.Run the main.py script.
    **- python3 main.py**

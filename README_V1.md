@@ -25,9 +25,9 @@ removing duplicated values, changing datatype and merging datatables.
    
    **- pip3 install -r requirements.txt**
 4. Copy the .env.example file to .env and fill out the environment vars.
-5. In the "main.py" put in comment
+5. In the "main.py" remove the comments in the following lines:
    
-   #from doenv import load_dotenv
+   #from dotenv import load_dotenv
    #load_dotenv()
 6. Run the main.py script.
 
